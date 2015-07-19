@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xmlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xanhdatroi2"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.TPLdev.game_chinhphucthuthach.ActivityHelpPhoneCallList" >
+
+    <TextView
+        android:id="@+id/tv_banmuongoichoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/strCPTT_banmuongoichoai"
+        android:textColor="#dfff"
+        android:textSize="25sp" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:numColumns="2" >
+    </GridView>
+
+</LinearLayout>

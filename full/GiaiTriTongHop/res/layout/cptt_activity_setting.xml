@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xmlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg11"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.TPLdev.game_chinhphucthuthach.ActivitySetting" >
+
+    <LinearLayout
+        android:id="@+id/lnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvSettingGame"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/cptt_background_tab"
+            android:gravity="center"
+            android:text="@string/strCPTTCaiDatTroChoi"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvMusic1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/strCPTTNhacNen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvMusic2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:text="@string/strCPTTTatNhac"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/cbMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/strCPTTAmNhac"
+            android:textColor="#dfff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvFont1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:text="@string/strCPTTFont"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvFont2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:text="@string/strCPTTsdFont"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/cbFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/strCPTTfontTroChoi"
+            android:textColor="#dfff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/strCPTTTacGia"
+        android:gravity="center"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back" />
+
+</RelativeLayout>

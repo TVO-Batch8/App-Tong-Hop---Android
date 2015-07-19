@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xmlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.TPLdev.game_chinhphucthuthach.ActivityHightScore" >
+
+    <LinearLayout
+        android:id="@+id/ln_HightScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/strCPTTTacGia"
+            android:src="@drawable/vui7" />
+
+        <TextView
+            android:id="@+id/tvHightScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#d000"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="0.5"
+            android:text="@string/strCPTTKyLuc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/strCPTTTacGia"
+            android:src="@drawable/vui7" />
+
+        <TextView
+            android:id="@+id/tvNumOfMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#d000"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="0.5"
+            android:text="@string/strCPTTTien"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#dfff"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/strCPTTTacGia"
+        android:gravity="center"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back" />
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Giải Trí Tổng Hợp</string>
+    <string name="strGame">Trò Chơi</string>
+    <string name="strBook">Kho Sách</string>
+    <string name="strNews">Đọc Báo</string>
+    <string name="strSetting">Cài Đặt</string>
+    <string name="strBookPDF">Sách PDF</string>
+    <string name="strMore">Thêm App</string>
+    <string name="strShare">Tài Khoản</string>
+    <string name="strShareContent">Ứng dụng này rất hay, xin dành tặng cho người có duyên.</string>
+    <string name="strDesImageView">TPL</string>
+    <string name="strTitle">Giải Trí Tổng Hợp</string>
+    <string name="strCPTTBatDau">BẮT ĐẦU</string>
+    <string name="strCPTTCaiDat">CÀI ĐẶT</string>
+    <string name="strCPTTDiemCao">ĐIỂM CAO</string>
+    <string name="strCPTTTacGia">TPLdev</string>
+    <string name="strCPTTInternetOn">Bạn đang online. Tổng số tiền mà bạn đang có là: </string>
+    <string name="strCPTTInternetOff">Bạn đang offline. Số tiền của bạn sẽ được +10 nếu chơi ở chế độ online. </string>
+    <string name="strCPTTKyLuc">Kỷ Lục</string>
+    <string name="strCPTTTien">Tiền</string>
+    <string name="strCPTTQuayLaiNao">Quay Lại Nào</string>
+    <string name="strCPTTDiemCaoTien">TIỀN</string>
+    <string name="strCPTTCaiDatTroChoi">CÀI ĐẶT TRÒ CHƠI</string>
+    <string name="strCPTTNhacNen">NHẠC NỀN</string>
+    <string name="strCPTTTatNhac">Tắt nhạc sẽ làm trò chơi mượt mà hơn.</string>
+    <string name="strCPTTAmNhac">Âm nhạc</string>
+    <string name="strCPTTFont">FONT CHỮ</string>
+    <string name="strCPTTsdFont">Sử dụng font chữ trò chơi hay thiết bị.</string>
+    <string name="strCPTTfontTroChoi">Font trò chơi</string>
+    <string name="strCPTTChamDeTiepTuc">Chạm để tiếp tục</string>
+    <string name="strCPTTTraLoiChinhXac">TRẢ LỜI\nCHÍNH XÁC!</string>
+    <string name="strCPTTThuaRoi">THUA RỒI!</string>
+    <string name="strCPTTKQ">KQ:</string>
+    <string name="strCPTTDiemSo">ĐIẾM SỐ:</string>
+    <string name="strCPTTKyLuc1">KỶ LỤC:</string>
+    <string name="strCPTTTienThuong">TIỀN THƯỞNG:</string>
+    <string name="strCPTTChoiLai">CHƠI LẠI</string>
+    <string name="strCPTTThoat">THOÁT</string>
+    <string name="strCPTT60s">60s</string>
+    <string name="strCPTTcauhoi">cauhoi</string>
+    <string name="strCPTT_a">A</string>
+    <string name="strCPTT_b">B</string>
+    <string name="strCPTT_c">C</string>
+    <string name="strCPTT_d">D</string>
+    <string name="strCPTT_xacnhan">Xác Nhận</string>
+    <string name="strCPTT_choiluon">Chơi luôn</string>
+    <string name="strCPTT_thoiso">Thôi sợ</string>
+    <string name="strCPTT_banmuongoichoai">BẠN MUỐN GỌI\nCHO AI?</string>
+    <!-- //facebook -->
+    <string name="facebook_app_name">Giai Tri Tong Hop</string>
+    <string name="app_id">100329310315693</string>
+    <string name="cancelled">Hủy</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="hello_user">Xin chào %1$s!</string>
+    <string name="ok">OK</string>
+    <!-- ////////////// -->
+    <string name="strChonChuyenMuc">Chọn Chuyên Mục</string>
+
+    <string-array name="rssloai">
+        <item>http://www.24h.com.vn/upload/rss/tintuctrongngay.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/bongda.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/anninhhinhsu.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/thoitrang.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/thoitranghitech.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/taichinhbatdongsan.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/amthuc.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/lamdep.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/phim.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/giaoducduhoc.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/bantrecuocsong.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/canhacmtv.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/thethao.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/phithuongkyquac.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/congnghethongtin.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/otoxemay.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/thitruongtieudung.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/dulich.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/suckhoedoisong.rss</item>
+        <item>http://www.24h.com.vn/upload/rss/cuoi24h.rss</item>
+    </string-array>
+
+    <string name="title_activity_goc_online_xem_tin">GocOnlineXemTinActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="strCaiDat">Cài đặt</string>
+    <string name="error">Lỗi</string>
+    <string name="success">Thành công</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="title_activity_activity__dialog__noconnect">Activity_Dialog_Noconnect</string>
+    <string name="title_activity_activity__news__saved__list">Activity_News_Saved_List</string>
+    <string name="title_activity_activity__dialog__type_name_to_save_news">Activity_Dialog_TypeNameToSaveNews</string>
+    <string name="title_activity_activity__read_news__offline">Activity_ReadNews_Offline</string>
+    <string name="strNhapTieuDeChoBaiBao">Nhập tiêu đề cho bài báo</string>
+    <string name="strDuongDan">Đường dẫn</string>
+    <string name="strXacNhanTai">Xác nhận tải</string>
+    <string name="strTinBaiDaLuu">Tin bài đã lưu: </string>
+    <string name="strLoading">LOADING...</string>
+
+    <string-array name="rssbook">
+        <item>http://apppro.timgem.com/rss/truyen-ngan-tinh-yeu</item>
+        <item>http://apppro.timgem.com/rss/truyen-suy-ngam</item>
+        <item>http://apppro.timgem.com/rss/truyen-ngon-tinh</item>
+        <item>http://apppro.timgem.com/rss/truyen-kiem-hiep</item>
+        <item>http://apppro.timgem.com/rss/truyen-trinh-tham</item>
+        <item>http://apppro.timgem.com/rss/truyen-cam-dong</item>
+        <item>http://apppro.timgem.com/rss/truyen-quynh-dao</item>
+        <item>http://apppro.timgem.com/rss/truyen-nguyen-nhat-anh</item>
+        <item>http://apppro.timgem.com/rss/truyen-phan-hon-nhien</item>
+        <item>http://apppro.timgem.com/rss/truyen-cuoi</item>
+        <item>http://apppro.timgem.com/rss/truyen-cuoi-18</item>
+        <item>http://apppro.timgem.com/rss/truyen-co-tich</item>
+        <item>http://apppro.timgem.com/rss/truyen-co-grimn</item>
+        <item>http://apppro.timgem.com/rss/thu-tinh-hay</item>
+        <item>http://apppro.timgem.com/rss/bi-quyet-tan-gai</item>
+        <item>http://apppro.timgem.com/rss/truyen-ma-kinh-di</item>
+        <item>http://apppro.timgem.com/rss/meo-vat-cuoc-song</item>
+        <item>http://apppro.timgem.com/rss/meo-vat-y-khoa-cho-be</item>
+        <item>http://apppro.timgem.com/rss/tho-tho-tinh</item>
+        <item>http://apppro.timgem.com/rss/van-hoc</item>
+        <item>http://apppro.timgem.com/rss/kinh-phat-phat-phap</item>
+        <item>http://apppro.timgem.com/rss/the-loai-khac</item>
+    </string-array>
+
+    <string name="title_activity_activity__read_book">Activity_ReadBook</string>
+    <string name="title_activity_activity_download_book">ActivityDownloadBook</string>
+
+    <string-array name="rssbookpdf">
+        <item>http://tplloi.vfun.me/rss/bai-viet</item>
+        <item>http://tplloi.vfun.me/rss/cuoc-chien-viet-nam</item>
+        <item>http://tplloi.vfun.me/rss/co-tich</item>
+        <item>http://tplloi.vfun.me/rss/co-van-viet-nam</item>
+        <item>http://tplloi.vfun.me/rss/hoi-ky-tuy-but</item>
+        <item>http://tplloi.vfun.me/rss/khoa-hoc</item>
+        <item>http://tplloi.vfun.me/rss/khoa-hoc-huyen-bi</item>
+        <item>http://tplloi.vfun.me/rss/khoa-hoc-gia-tuong</item>
+        <item>http://tplloi.vfun.me/rss/kinh-di-ma-quai</item>
+        <item>http://tplloi.vfun.me/rss/kiem-hiep</item>
+<!--         <item>http://tplloi.vfun.me/rss/kich-kich-ban</item> -->
+        <item>http://tplloi.vfun.me/rss/lich-su</item>
+        <item>http://tplloi.vfun.me/rss/nhan-vat-lich-su</item>
+        <item>http://tplloi.vfun.me/rss/phieu-luu-mao-hiem</item>
+        <item>http://tplloi.vfun.me/rss/suy-ngam-lam-nguoi</item>
+        <item>http://tplloi.vfun.me/rss/tieu-lam</item>
+        <item>http://tplloi.vfun.me/rss/tieu-thuyet</item>
+        <item>http://tplloi.vfun.me/rss/trinh-tham-hinh-su</item>
+<!--         <item>http://tplloi.vfun.me/rss/triet-hoc-kinh-te</item> -->
+        <item>http://tplloi.vfun.me/rss/trung-hoa</item>
+        <item>http://tplloi.vfun.me/rss/truyen-dai</item>
+        <item>http://tplloi.vfun.me/rss/truyen-ngan</item>
+        <item>http://tplloi.vfun.me/rss/tuoi-hoc-tro</item>
+        <item>http://tplloi.vfun.me/rss/tinh-cam-xa-hoi</item>
+        <item>http://tplloi.vfun.me/rss/ton-giao-chinh-tri</item>
+        <item>http://tplloi.vfun.me/rss/tap-truyen-ngan</item>
+        <item>http://tplloi.vfun.me/rss/van-hoc-co-dien</item>
+        <item>http://tplloi.vfun.me/rss/y-hoc-suc-khoe</item>
+    </string-array>
+
+    <string name="title_activity_activity_list_book_downloaded">ActivityListBookDownloaded</string>
+
+</resources>

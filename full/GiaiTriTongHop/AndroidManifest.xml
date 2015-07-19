@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.TPLdev.giaitritonghop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ActivityMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelloGame"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelpChangeQuestion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelpBadOrLuck"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelpAskAudience"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelpAskAudienceChart"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelpPhoneCallList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityShowSuggest"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHelpPhoneCall"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityToastLostMoney"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivityHightScore"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.game_chinhphucthuthach.ActivitySetting"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/facebook_app_name" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider100329310315693"
+            android:exported="true" />
+
+        <receiver android:name="com.TPLdev.Homework11.HelloFacebookBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.facebook.platform.AppCallResultBroadcast" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.TPLdev.news.Activity_ReadNews"
+            android:label="@string/title_activity_goc_online_xem_tin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.news.Activity_Dialog_Noconnect"
+            android:label="@string/title_activity_activity__dialog__noconnect"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.news.Activity_News_Saved_List"
+            android:label="@string/title_activity_activity__news__saved__list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.news.Activity_Dialog_TypeNameToSaveNews"
+            android:label="@string/title_activity_activity__dialog__type_name_to_save_news"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.news.Activity_ReadNews_Offline"
+            android:label="@string/title_activity_activity__read_news__offline"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.book.Activity_ReadBook"
+            android:label="@string/title_activity_activity__read_book"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.TPLdev.bookpdf.ActivityReadBookPdf" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.bookpdf.ActivityListBookDownloaded"
+            android:label="@string/title_activity_activity_list_book_downloaded"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.TPLdev.bookpdf.DownloadFilePDF"
+            android:label="@string/title_activity_activity_list_book_downloaded"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

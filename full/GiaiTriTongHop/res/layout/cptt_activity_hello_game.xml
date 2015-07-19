@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xmlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.TPLdev.game_chinhphucthuthach.ActivityHelloGame" >
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivStart"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/strCPTTTacGia"
+            android:gravity="center"
+            android:padding="8dp"
+            android:src="@drawable/ic_playgame" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivSetting"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/strCPTTTacGia"
+                android:gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/ic_settinggame" />
+
+            <ImageView
+                android:id="@+id/ivHightScore"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/strCPTTTacGia"
+                android:gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/ic_hightscore" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/strCPTTTacGia"
+        android:textColor="#dfff"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

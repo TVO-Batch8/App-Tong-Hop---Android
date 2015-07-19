@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xmlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xam"
+    android:orientation="vertical"
+    tools:context="com.TPLdev.game_chinhphucthuthach.ActivityHelpChangeQuestion" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/trogiup_henxui" />
+
+    <TextView
+        android:id="@+id/tv_namePerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xanhla"
+            android:drawableTop="@drawable/ic_action_good"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/strCPTT_choiluon"
+            android:textColor="#dfff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/do2"
+            android:drawableTop="@drawable/ic_action_bad"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/strCPTT_thoiso"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#dfff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
